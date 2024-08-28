@@ -99,13 +99,16 @@ button {
 .three>div {
     background-color: bisque;
     display: grid;
-    grid-template-columns:auto auto auto auto auto;
-    row-gap: 10px;
+    grid-template-columns: repeat(5,1fr)  ;
+    gap: 20px;
     justify-content: space-between;
 }
 .three>h2 {
     text-align: center;
     padding-top: 50px;
+}
+.three img {
+    width: 14vw;
 }
 
 
