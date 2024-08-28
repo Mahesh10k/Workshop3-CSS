@@ -99,7 +99,7 @@ button {
 .three>div {
     background-color: bisque;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: 20% 20% 20% 20% 20%;
     row-gap: 10px;
     justify-content: space-between;
 }
